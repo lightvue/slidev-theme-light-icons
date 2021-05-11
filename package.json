@@ -1,0 +1,18 @@
+{
+  "name": "slidev-theme-light-icons",
+  "version": "0.0.0",
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "scripts": {
+    "dev": "slidev example.md --open",
+    "build": "slidev build example.md",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.7.1",
+    "@slidev/theme-default": "^0.7.2"
+  }
+}
