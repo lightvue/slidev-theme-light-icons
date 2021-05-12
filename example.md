@@ -6,7 +6,7 @@ image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 
   <div class="absolute pt-6 left-12">
     <span @click="next" class="py-1 rounded cursor-pointer hover:bg-white hover:bg-opacity-10">
-      Press Space for next page <carbon:arrow-right class="inline"/>
+      Press Space for next page <light-icon icon="arrow-narrow-right" size="24px"/> 
     </span>
   </div>
 
