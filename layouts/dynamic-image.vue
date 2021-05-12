@@ -51,6 +51,9 @@
         v-if="upperImage"
         class="absolute top-1/2 transform -translate-y-1/2"
         :class="left ? 'left-[80px]' : 'right-[80px]'"
+        :style="{
+          boxShadow: '0px 10px 30px rgba(0,0,0,0.7)',
+        }"
       >
         <img :src="upperImage" class="w-[450px]" alt="" loading="lazy" />
       </div>
