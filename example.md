@@ -330,7 +330,7 @@ left: false
   </div>
 
   ```ts
-  // Inbuilt in theme
+  // Inbuilt component in theme
   <light-icon icon="brand-facebook" size="24px" />
   ```
 
@@ -347,7 +347,7 @@ left: false
   </div>
 
   ```ts
-  // Imbuild in theme
+  // Inbuilt wrapper-component in theme
   <icon-wrapper>
     <light-icon icon="brand-facebook" size="24px" />
   </icon-wrapper>
@@ -366,10 +366,11 @@ layout: center-image
   </display-tag>
 
   <div class="mb-0">
-    <span class="text-3xl text-primary dark:text-primary-lighter" style="font-weight:600;" >Visit Us</span>
+    <span class="text-3xl text-primary dark:text-primary-lighter" style="font-weight:600;text-transform: uppercase;" >Explore More</span>
   </div>
   <div class="mb-0">
-    <a href="https://lightvue.org/" target="_blank" class="">Light Vue</a> | <a href="https://lightvue.org/getting-started/light-icons" target="_blank" class="">Light Icons</a>
+    <a href="https://icons.lightvue.org/" target="_blank" class="">Documentation</a> |
+    <a href="https://github.com/lightvue/light-icons" target="_blank" class="">Contribute</a>
   </div>
 
   <style>
