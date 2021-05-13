@@ -5,9 +5,18 @@
     </div>
     <div
       v-if="image"
-      :class="[equal ? 'col-span-6' : 'col-span-4', 'my-auto h-full']"
+      :class="[
+        equal ? 'col-span-6' : 'col-span-4',
+        'my-auto h-full flex justify-center items-center',
+      ]"
     >
-      <img :src="image" />
+      <img
+        :src="image"
+        class="my-auto mx-auto w-auto"
+        :style="{
+          maxHeight: '70%',
+        }"
+      />
     </div>
     <div
       :class="[

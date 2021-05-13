@@ -26,21 +26,20 @@ image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 layout: image-header-intro
 imageHeader: '../assets/images/light-icon-logo.svg'
 ---
-  <div class="absolute top-0 text-sm text-black dark:text-white text-opacity-60 dark:text-opacity-60 mt-2">
+  <display-tag >
     <span>
-     Layout: <span class="text-primary dark:text-primary-lighter text-opacity-60 dark:text-opacity-60"> image-header-intro </span>
+     Layout: <span class="text-primary text-opacity-80 dark:text-opacity-60"> image-header-intro </span>
     </span>
-  </div>
+  </display-tag>
 
   <div class="leading-snug text-black dark:text-white text-opacity-60 dark:text-opacity-60 mt-4">
     The Emerging light weight icon library for Vue 3.x & Vue 2.x
   </div> 
   <div class="absolute pt-6 left-12">
-    <span @click="next" class="py-1 rounded cursor-pointer hover:bg-white hover:bg-opacity-10 flex justify-center items-center">
+    <span @click="next" class="py-1 p-2 rounded cursor-pointer hover:bg-white hover:bg-opacity-10 flex justify-center items-center">
       Press Space for next page  <light-icon icon="arrow-narrow-right" size="24px"/> 
     </span>
   </div>
-
 
 
 ---
@@ -48,11 +47,11 @@ layout: image-header-intro
 imageHeader: '../assets/images/light-icon-logo.svg'
 imageRight: '../assets/images/light-vue-landing.svg'
 ---
-  <div class="absolute top-0 text-sm text-black dark:text-white text-opacity-60 dark:text-opacity-60 mt-2">
+  <display-tag >
     <span>
-     Layout: <span class="text-primary dark:text-primary-lighter text-opacity-60 dark:text-opacity-60"> image-header-intro </span>
+     Layout: <span class=" text-primary text-opacity-80 dark:text-opacity-60"> image-header-intro </span>
     </span>
-  </div>
+  </display-tag>
 
   <div class="leading-snug text-black dark:text-white text-opacity-60 dark:text-opacity-60 mt-4">
     The Emerging light weight icon library for Vue 3.x & Vue 2.x
@@ -66,11 +65,11 @@ layout: image-left
 image: '../assets/images/light-icons-landing.svg'
 equal: true
 ---
-  <div class="absolute top-0 left-14 text-sm text-black dark:text-white text-opacity-60 dark:text-opacity-60 mt-2">
+  <display-tag>
     <span>
-     Layout: <span class="text-primary dark:text-primary-lighter text-opacity-60 dark:text-opacity-60"> image-left </span>
+     Layout: <span class=" text-primary text-opacity-80 dark:text-opacity-60"> image-left </span>
     </span>
-  </div>
+  </display-tag>
   <div class="">
     <h1 class="text-primary dark:text-primary-lighter" >Premium collection of light icons</h1>
   </div>
@@ -87,18 +86,17 @@ image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 equal: true
 left: false
 ---
-  <div class="absolute top-0 left-14 text-sm text-black dark:text-white text-opacity-60 dark:text-opacity-60 mt-2">
+  <display-tag >
     <span>
-     Layout: <span class="text-primary dark:text-primary-lighter text-opacity-60 dark:text-opacity-60"> dynamic-image </span>
+     Layout: <span class="text-primary text-opacity-80 dark:text-opacity-60"> dynamic-image </span>
     </span>
-  </div>
+  </display-tag>
 
   <div class="text-primary dark:text-primary-lighter pb-2 pt-4">
     <span class="">
       For Installation
     </span>
   </div>
-
 
 ```ts
 npm install light-icons --save
@@ -143,11 +141,12 @@ image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 equal: false
 left: false
 ---
-  <div class="absolute top-0 left-14 text-sm text-black dark:text-white text-opacity-60 dark:text-opacity-60 mt-2">
+  <display-tag >
     <span>
-     Layout: <span class="text-primary dark:text-primary-lighter text-opacity-60 dark:text-opacity-60"> dynamic-image </span>
+     Layout: <span class=" text-primary text-opacity-80 dark:text-opacity-60"> dynamic-image </span>
     </span>
-  </div>
+  </display-tag>
+
   <div class="text-black dark:text-white text-opacity-60 dark:text-opacity-60 pt-2 font-sm">
     <span class="text-sm">
       Image at right
@@ -167,17 +166,21 @@ equal: false
 left: false
 ```
 
+
+
+
 ---
 layout: dynamic-image 
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 equal: false
 left: true
 ---
-  <div class="absolute top-0 right-14 text-sm text-black dark:text-white text-opacity-60 dark:text-opacity-60 mt-2">
+  <display-tag >
     <span>
-     Layout: <span class="text-primary dark:text-primary-lighter text-opacity-60 dark:text-opacity-60"> dynamic-image </span>
+     Layout: <span class=" text-primary text-opacity-80 dark:text-opacity-60"> dynamic-image </span>
     </span>
-  </div>
+  </display-tag>
+
   <div class="text-black dark:text-white text-opacity-60 dark:text-opacity-60 pt-2 font-sm">
       <span class="text-sm">
         Image at left
@@ -198,17 +201,19 @@ left: true
 
 
 
+
 ---
 layout: dynamic-image 
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 equal: true
 left: false
 ---
-  <div class="absolute top-0 left-14 text-sm text-black dark:text-white text-opacity-60 dark:text-opacity-60 mt-2">
+  <display-tag >
     <span>
-     Layout: <span class="text-primary dark:text-primary-lighter text-opacity-60 dark:text-opacity-60"> dynamic-image </span>
+     Layout: <span class=" text-primary text-opacity-80 dark:text-opacity-60"> dynamic-image </span>
     </span>
-  </div>
+  </display-tag>
+
   <div class="text-black dark:text-white text-opacity-60 dark:text-opacity-60 pt-2 font-sm">
       <span class="text-sm">
         Equal Width
@@ -229,6 +234,7 @@ left: false
 
 
 
+
 ---
 layout: dynamic-image 
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
@@ -236,11 +242,12 @@ upperImage: 'https://source.unsplash.com/collection/94734566/1920x1080'
 equal: true
 left: false
 ---
-  <div class="absolute top-0 left-14 text-sm text-black dark:text-white text-opacity-60 dark:text-opacity-60 mt-2">
+  <display-tag >
     <span>
-     Layout: <span class="text-primary dark:text-primary-lighter text-opacity-60 dark:text-opacity-60"> dynamic-image </span>
+     Layout: <span class=" text-primary text-opacity-80 dark:text-opacity-60"> dynamic-image </span>
     </span>
-  </div>
+  </display-tag>
+
   <div class="text-black dark:text-white text-opacity-60 dark:text-opacity-60 pt-2 font-sm">
       <span class="text-sm">
         Floating image
@@ -267,64 +274,97 @@ left: false
 layout: center-image
 image: '../assets/images/light-icons-landing2.png'
 ---
-  <div class="absolute top-0 left-14 text-sm text-black dark:text-white text-opacity-60 dark:text-opacity-60 mt-2">
+  <display-tag >
     <span>
-     Layout: <span class="text-primary dark:text-primary-lighter text-opacity-60 dark:text-opacity-60"> center-image </span>
+     Layout: <span class=" text-primary text-opacity-80 dark:text-opacity-60"> center-image </span>
     </span>
-  </div>
+  </display-tag>
 
   <div class="mb-4">
     <span class="text-3xl text-primary dark:text-primary-lighter" style="font-weight:500;" >Vast Selection of Light Weight Icons</span>
   </div>
+
+
+
+
 ---
-layout: image-right
+layout: dynamic-image
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
-equal: true
+equal: false
+left: false
 ---
+  <display-tag >
+    <span>
+     Layout: <span class=" text-primary text-opacity-80 dark:text-opacity-60"> dynamic-image </span>
+    </span>
+  </display-tag>
 
   <div class="text-primary dark:text-primary-lighter ">
     <span class="text-xl">
      Easy to use Syntax:
     </span>
   </div>
+  
+  <div class="flex items-end justify-between pb-2 pt-5">
+    <div class="">
+      <i class="light-icon-brand-facebook" style="font-size:24px;" ></i>
+    </div>
+    <span class="text-xs opacity-60">
+      Universal
+    </span>
+  </div>
 
-  <div class="mb-4 mt-6">
-    <icon-wrapper>
+  ```ts
+  // Universal
+  <i class="light-icon-brand-facebook"></i> 
+  ```
+
+
+  <div class="flex items-end justify-between pb-2 pt-5">
+    <div class="">
       <light-icon icon="brand-facebook" size="24px" />
-    </icon-wrapper>
+    </div>
+    <span class="text-xs opacity-60">
+      Inbuilt in theme
+    </span>
   </div>
 
   ```ts
-  <i class="light-icon-brand-facebook"></i>
+  // Inbuilt in theme
+  <light-icon icon="brand-facebook" size="24px" />
   ```
-  <div class="mb-4 mt-6">
-    <icon-wrapper>
-      <light-icon icon="brand-instagram" size="24px" />
-    </icon-wrapper>
+
+
+  <div class="flex items-end justify-between pb-2 pt-5">
+    <div class="">
+      <icon-wrapper>
+        <light-icon icon="brand-facebook" size="24px" />
+      </icon-wrapper>
+    </div>
+    <span class="text-xs opacity-60 i">
+      Inbuilt in theme
+    </span>
   </div>
 
   ```ts
-  <i class="light-icon-brand-instagram"></i>
+  // Imbuild in theme
+  <icon-wrapper>
+    <light-icon icon="brand-facebook" size="24px" />
+  </icon-wrapper>
   ```
-  <div class="mb-4 mt-6">
-    <icon-wrapper>
-      <light-icon icon="brand-twitter" size="24px" />
-    </icon-wrapper>
-  </div>
 
-  ```ts
-  <i class="light-icon-brand-twitter"></i>
-  ```
+
 
 
 ---
 layout: center-image
 ---
-  <div class="absolute top-0 left-14 text-sm text-black dark:text-white text-opacity-60 dark:text-opacity-60 mt-2">
+  <display-tag>
     <span>
-     Layout: <span class="text-primary dark:text-primary-lighter text-opacity-60 dark:text-opacity-60"> center-image </span>
+     Layout: <span class=" text-primary "> center-image </span>
     </span>
-  </div>
+  </display-tag>
+
   <div class="mb-0">
     <span class="text-3xl text-primary dark:text-primary-lighter" style="font-weight:600;" >Visit Us</span>
   </div>

@@ -12,28 +12,27 @@
     >
       <slot />
     </div>
-
     <div
       v-if="image"
-      :class="[equal ? 'col-span-6' : 'col-span-4']"
-      :style="style"
+      :class="[
+        equal ? 'col-span-6' : 'col-span-4',
+        'my-auto h-full flex justify-center items-center',
+      ]"
     >
-      <div
-        v-if="floatingImage"
-        class="absolute top-1/2 transform -translate-y-1/2 right-[100px]"
-      >
-        <img :src="floatingImage" alt="" class="w-[450px]" loading="lazy" />
-      </div>
+      <img
+        :src="image"
+        class="my-auto mx-auto w-auto"
+        :style="{
+          maxHeight: '70%',
+        }"
+      />
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
 // Dependencies
-import { computed, defineProps } from "vue";
-
-// Utils
-import { handleBackground } from "../utils";
+import { defineProps } from "vue";
 
 const props = defineProps({
   image: {
@@ -46,6 +45,4 @@ const props = defineProps({
     required: false,
   },
 });
-
-const style = computed(() => handleBackground(props.image));
 </script>
