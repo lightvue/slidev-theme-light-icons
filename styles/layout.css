@@ -95,3 +95,11 @@
     @apply opacity-40 -mt-4 text-2xl;
   }
 }
+.manual-shadow {
+  --tw-shadow: 0 20px 25px -5px rgba(19, 84, 131, 0.152), 0 10px 10px -5px rgba(19, 84, 131, 0.1);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(19,84,131, 0)), var(--tw-ring-shadow, 0 0 rgba(19,84,131, 0)), var(--tw-shadow);
+}
+.dark .manual-shadow {
+  --tw-shadow: 0 15px 20px -5px rgba(19, 84, 131, 0.261), 0 10px 10px -5px rgba(19, 84, 131, 0.487);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(19,84,131, 0)), var(--tw-ring-shadow, 0 0 rgba(19,84,131, 0)), var(--tw-shadow);
+}

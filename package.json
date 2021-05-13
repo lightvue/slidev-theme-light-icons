@@ -1,6 +1,10 @@
 {
   "name": "slidev-theme-light-icons",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "description": "Light Icons theme for Slidev",
   "keywords": [
     "slidev-theme",
     "slidev"
@@ -13,6 +17,10 @@
   },
   "dependencies": {
     "@slidev/cli": "^0.7.1",
-    "@slidev/theme-default": "^0.7.2"
+    "@slidev/theme-default": "^0.7.2",
+    "light-icons": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.2"
   }
 }

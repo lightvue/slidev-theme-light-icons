@@ -4,3 +4,5 @@ dist
 *.local
 index.html
 .remote-assets
+.vscode
+.prettierrc

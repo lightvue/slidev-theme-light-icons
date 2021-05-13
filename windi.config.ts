@@ -17,9 +17,20 @@ export default mergeWindicssConfig(
     },
     theme: {
       extend: {
+        colors: {
+          primary: {
+            DEFAULT: "#009286",
+            dark: "#038378",
+            darker: "#076E65",
+            darkest: "#065A53",
+            light: "#10B5A7",
+            lighter: "#0CCABA",
+            lightest: "#06E5D2",
+          },
+        },
         // fonts can be replaced here, remember to update the web font links in `index.html`
         fontFamily: {
-          sans: '"Nunito Sans", ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"',
+          sans: '"Poppins","Nunito Sans", ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"',
           mono: '"Fira Code", monospace',
         },
       },
