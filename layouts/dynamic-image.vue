@@ -73,7 +73,14 @@
       <div
         v-if="image"
         class="my-auto h-full"
-        :style="upperImage ? { ...style, filter: 'blur(3px)' } : { ...style }"
+        :style="
+          upperImage
+            ? {
+                ...style,
+                filter: 'blur(3px)',
+              }
+            : { ...style }
+        "
       ></div>
     </div>
   </div>
@@ -105,6 +112,14 @@ const props = defineProps({
     required: false,
   },
 });
-
-const style = computed(() => handleBackground(props.image));
+// const style1 = {
+//   filter: "blur(3px)",
+//   backgroundImage: `url(${require("upperImage")})`,
+//   backgroundRepeat: "no-repeat",
+//   backgroundPosition: "center",
+//   backgroundSize: "cover",
+// };
+const style = computed(() =>
+  handleBackground(props.image, props.upperImage ? true : false)
+);
 </script>
