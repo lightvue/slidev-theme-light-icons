@@ -28,7 +28,7 @@ imageHeader: '../assets/images/light-icon-logo.svg'
 ---
   <display-tag >
     <span>
-     Layout: <span class="text-primary text-opacity-80 dark:text-opacity-60"> image-header-intro </span>
+     Layout: <span class="text-primary"> image-header-intro </span>
     </span>
   </display-tag>
 
@@ -49,7 +49,7 @@ imageRight: '../assets/images/light-vue-landing.svg'
 ---
   <display-tag >
     <span>
-     Layout: <span class=" text-primary text-opacity-80 dark:text-opacity-60"> image-header-intro </span>
+     Layout: <span class=" text-primary"> image-header-intro </span>
     </span>
   </display-tag>
 
@@ -67,7 +67,7 @@ equal: true
 ---
   <display-tag>
     <span>
-     Layout: <span class=" text-primary text-opacity-80 dark:text-opacity-60"> image-left </span>
+     Layout: <span class=" text-primary"> image-left </span>
     </span>
   </display-tag>
   <div class="">
@@ -88,7 +88,7 @@ left: false
 ---
   <display-tag >
     <span>
-     Layout: <span class="text-primary text-opacity-80 dark:text-opacity-60"> dynamic-image </span>
+     Layout: <span class="text-primary"> dynamic-image </span>
     </span>
   </display-tag>
 
@@ -143,7 +143,7 @@ left: false
 ---
   <display-tag >
     <span>
-     Layout: <span class=" text-primary text-opacity-80 dark:text-opacity-60"> dynamic-image </span>
+     Layout: <span class=" text-primary"> dynamic-image </span>
     </span>
   </display-tag>
 
@@ -177,7 +177,7 @@ left: true
 ---
   <display-tag >
     <span>
-     Layout: <span class=" text-primary text-opacity-80 dark:text-opacity-60"> dynamic-image </span>
+     Layout: <span class=" text-primary"> dynamic-image </span>
     </span>
   </display-tag>
 
@@ -210,7 +210,7 @@ left: false
 ---
   <display-tag >
     <span>
-     Layout: <span class=" text-primary text-opacity-80 dark:text-opacity-60"> dynamic-image </span>
+     Layout: <span class=" text-primary"> dynamic-image </span>
     </span>
   </display-tag>
 
@@ -244,7 +244,7 @@ left: false
 ---
   <display-tag >
     <span>
-     Layout: <span class=" text-primary text-opacity-80 dark:text-opacity-60"> dynamic-image </span>
+     Layout: <span class=" text-primary"> dynamic-image </span>
     </span>
   </display-tag>
 
@@ -276,7 +276,7 @@ image: '../assets/images/light-icons-landing2.png'
 ---
   <display-tag >
     <span>
-     Layout: <span class=" text-primary text-opacity-80 dark:text-opacity-60"> center-image </span>
+     Layout: <span class=" text-primary"> center-image </span>
     </span>
   </display-tag>
 
@@ -295,7 +295,7 @@ left: false
 ---
   <display-tag >
     <span>
-     Layout: <span class=" text-primary text-opacity-80 dark:text-opacity-60"> dynamic-image </span>
+     Layout: <span class=" text-primary"> dynamic-image </span>
     </span>
   </display-tag>
 

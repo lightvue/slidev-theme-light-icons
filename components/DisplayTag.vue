@@ -1,5 +1,5 @@
 <template>
-  <div class="layout-name absolute text-xs mt-2 shadow bg">
+  <div class="layout-name absolute text-xs bg">
     <slot />
   </div>
 </template>
@@ -24,7 +24,7 @@
   box-shadow: 0px 0px 30px rgba(199, 199, 199, 0.042), 0px 0px 10px rgba(107, 106, 106, 0.08);
 }
 .layout-name.bg {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(15, 41, 39, 0.1);
 }
 .dark .layout-name.bg {
   background-color: rgba(15, 41, 39, 0.9);
