@@ -341,7 +341,7 @@ left: false
         <light-icon icon="brand-facebook" size="24px" />
       </icon-wrapper>
     </div>
-    <span class="text-xs opacity-60 i">
+    <span class="text-xs opacity-60 ">
       Inbuilt in theme
     </span>
   </div>
