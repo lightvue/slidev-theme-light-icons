@@ -19,7 +19,7 @@ export default mergeWindicssConfig(
       extend: {
         colors: {
           primary: {
-            DEFAULT: "#009286",
+            DEFAULT: "#008080",
             dark: "#038378",
             darker: "#076E65",
             darkest: "#065A53",

@@ -1,5 +1,5 @@
 <template>
-    <i :class="`light-icon-${icon}`" :style="`font-size: ${size}`"/>
+    <i :class="`light-icon-${icon}`" :style="`font-size: ${size}; color: ${color}; vertical-align: middle;`"/>
 </template>
 
 <script setup lang="ts">
@@ -11,7 +11,11 @@ const props = defineProps({
     },
     size: {
         type: String,
-        default: '16px'
-    }
+        default: 'inherit'
+    },
+    color: {
+        type: String,
+        default: 'inherit'
+    },
 });
 </script>
