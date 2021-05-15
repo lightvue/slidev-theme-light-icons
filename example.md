@@ -46,7 +46,7 @@ equal: true
     <h1 class="text-primary dark:text-primary" >Handcrafted Icons...</h1>
   </div>
   <div class="leading-snug text-black dark:text-white text-opacity-60 dark:text-opacity-60">
-    UI Library hands out everything you need to create contemporary, engaging, and responsive web applications. A platform set to offer unlimited light customizable UI variants and an implementation playground to define how your components would look to and fro.
+    Your imagination has no boundaries and so does our handpicked collection of premium & light-weighted icons. Explore and choose icons from the vast landscape of Light-Icons.
   </div>
 
 
@@ -118,7 +118,7 @@ left: false
   </div>
   <div class="text-primary dark:text-primary pb-2 pt-4">
     <span class="">
-      Theme Configuration
+      Theme Configuration <light-icon icon="settings" size="24px"/>
     </span>
   </div>
 
@@ -148,7 +148,7 @@ left: true
   </div>
   <div class="text-primary dark:text-primary pb-2 pt-2">
     <span class="">
-      Theme Configuration
+      Theme Configuration <light-icon icon="settings" size="24px"/>
     </span>
   </div>
 
@@ -177,7 +177,7 @@ left: false
   </div>
   <div class="text-primary dark:text-primary pb-2 pt-2">
     <span class="">
-      Theme Configuration
+      Theme Configuration <light-icon icon="settings" size="24px"/>
     </span>
   </div>
 
@@ -207,7 +207,7 @@ left: false
   </div>
   <div class="text-primary dark:text-primary pb-2 pt-2">
     <span class="">
-      Theme Configuration
+      Theme Configuration <light-icon icon="settings" size="24px"/>
     </span>
   </div>
 
