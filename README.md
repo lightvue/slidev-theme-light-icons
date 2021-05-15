@@ -5,7 +5,7 @@
 - A light and Elegant theme for [Slidev](https://github.com/slidevjs/slidev).
 - This theme contains collection of amazing & light-weighted icons called the `light-icons`.
 
-#### Live demo: [Click Here](https://slidev.icons.lightvue.org)
+#### Live demo: [Click Here](https://slidev.icons.lightvue.org).
 
 For more information about `light-icons`. Visit [Light Icons](https://lightvue.org/getting-started/light-icons).
 
@@ -30,7 +30,6 @@ Usage:
 layout: intro
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 ---
-
 ```
 
 ![intro](https://i.imgur.com/RxfnAIY.png)
@@ -47,7 +46,6 @@ layout: image-header-intro
 imageHeader: '../assets/images/light-icon-logo.svg'
 imageRight: '../assets/images/light-icons-landing.svg'
 ---
-
 ```
 
 ![image-header-intro](https://i.imgur.com/g0EIbyN.png)
@@ -63,7 +61,6 @@ layout: image-left
 image: '../assets/images/light-vue-landing.svg'
 equal: true
 ---
-
 ```
 
 ![image-left](https://i.imgur.com/lEDvqkD.png)
@@ -80,7 +77,6 @@ image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 equal: true
 left: false
 ---
-
 ```
 
 ![dynamic-image](https://i.imgur.com/TPiRpTf.png)
@@ -97,7 +93,6 @@ image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 equal: false
 left: false
 ---
-
 ```
 
 ![dynamic-image](https://i.imgur.com/IPZqo4h.png)
@@ -114,7 +109,6 @@ image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 equal: false
 left: true
 ---
-
 ```
 
 ![dynamic-image](https://i.imgur.com/JFy7wsu.png)
@@ -131,7 +125,6 @@ image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 equal: true
 left: false
 ---
-
 ```
 
 ![dynamic-image](https://i.imgur.com/oyXH7FL.png)
@@ -149,7 +142,6 @@ upperImage: 'https://source.unsplash.com/collection/94734566/1920x1080'
 equal: true
 left: false
 ---
-
 ```
 
 ![dynamic-image](https://i.imgur.com/47LFHW2.png)
@@ -164,7 +156,6 @@ Usage:
 layout: center-image
 image: '../assets/images/light-icons-landing2.png'
 ---
-
 ```
 
 ![center-image](https://i.imgur.com/mlzLTbD.png)
@@ -181,7 +172,6 @@ image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 equal: false
 left: false
 ---
-
 ```
 
 ![dynamic-image](https://i.imgur.com/py8YL0P.png)
@@ -196,7 +186,6 @@ Usage:
 ---
 layout: center-image
 ---
-
 ```
 
 ![center-image](https://i.imgur.com/hUR2PsM.png)
@@ -215,7 +204,7 @@ This theme provides the following components:
 
 ### `LightIcon` & `IconBox`
 - For using `light-icons` wherever needed inside the theme.
-- Also packed with additional `IconBox` to make the icons look elegant
+- Also packed with additional `IconBox` to make the icons look elegant.
 
 ![dynamic-image](https://i.imgur.com/py8YL0P.png)
 
