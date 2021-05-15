@@ -24,8 +24,8 @@ image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 
 ---
 layout: image-header-intro
-imageHeader: '../assets/images/light-icon-logo.svg'
-imageRight: '../assets/images/light-icons-landing.svg'
+imageHeader: './assets/images/light-icon-logo.svg'
+imageRight: './assets/images/light-icons-landing.svg'
 ---
   <layout-tag layout-name="image-header-intro" />
 
@@ -37,7 +37,7 @@ imageRight: '../assets/images/light-icons-landing.svg'
 
 ---
 layout: image-left
-image: '../assets/images/light-vue-landing.svg'
+image: './assets/images/light-vue-landing.svg'
 equal: true
 ---
   <layout-tag layout-name="image-left" />
@@ -229,7 +229,7 @@ left: false
 
 ---
 layout: center-image
-image: '../assets/images/light-icons-landing2.png'
+image: './assets/images/light-icons-landing2.png'
 ---
   <layout-tag layout-name="center-image" />
 
