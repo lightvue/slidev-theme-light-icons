@@ -47,8 +47,8 @@ equal: true
   </div>
   <div class="leading-snug text-black dark:text-white text-opacity-60 dark:text-opacity-60">
     Your imagination has no boundaries and so does our handpicked collection of premium & light-weighted icons. 
-    <br/>
-    Explore and choose icons from the vast landscape of Light-Icons.
+    <br/><br/>
+    Explore and choose icons from the vast landscape of Light-Icons. <light-icon icon="brand-telegram" />
   </div>
 
 
@@ -64,7 +64,8 @@ left: false
 
   <div class="text-primary dark:text-primary pb-2 pt-4">
     <span class="">
-      For Installation
+      <light-icon icon="click" />
+      Installation 
     </span>
   </div>
 
@@ -74,7 +75,8 @@ npm install light-icons --save
 
   <div class="text-primary dark:text-primary pb-2 pt-4">
     <span class="">
-      Import CSS file
+      <light-icon icon="palette" />
+      Import CSS file 
     </span>
   </div>
 
@@ -85,7 +87,8 @@ npm install light-icons --save
 
   <div class="text-black dark:text-white text-opacity-80 dark:text-opacity-80 pb-2 pt-4">
     <span class="block pb-2 text-primary dark:text-primary">
-      How to use
+      <light-icon icon="code" />
+      Easy to use 
     </span>
     <span class="text-xs " >
       Add 
@@ -115,12 +118,12 @@ left: false
 
   <div class="text-black dark:text-white text-opacity-60 dark:text-opacity-60 pt-2 font-sm">
     <span class="text-sm">
-      Image at right
+      Image at Right
     </span>
   </div>
   <div class="text-primary dark:text-primary pb-2 pt-4">
     <span class="">
-      Theme Configuration <light-icon icon="settings" size="24px"/>
+      Theme Configuration <light-icon icon="settings"/>
     </span>
   </div>
 
@@ -145,12 +148,12 @@ left: true
 
   <div class="text-black dark:text-white text-opacity-60 dark:text-opacity-60 pt-2 font-sm">
       <span class="text-sm">
-        Image at left
+        Image at Left
       </span>
   </div>
   <div class="text-primary dark:text-primary pb-2 pt-2">
     <span class="">
-      Theme Configuration <light-icon icon="settings" size="24px"/>
+      Theme Configuration <light-icon icon="adjustments-horizontal"/>
     </span>
   </div>
 
@@ -179,7 +182,7 @@ left: false
   </div>
   <div class="text-primary dark:text-primary pb-2 pt-2">
     <span class="">
-      Theme Configuration <light-icon icon="settings" size="24px"/>
+      Theme Configuration <light-icon icon="adjustments"/>
     </span>
   </div>
 
@@ -209,7 +212,7 @@ left: false
   </div>
   <div class="text-primary dark:text-primary pb-2 pt-2">
     <span class="">
-      Theme Configuration <light-icon icon="settings" size="24px"/>
+      Theme Configuration <light-icon icon="settings"/>
     </span>
   </div>
 
@@ -231,7 +234,7 @@ image: '../assets/images/light-icons-landing2.png'
   <layout-tag layout-name="center-image" />
 
   <div class="mb-4">
-    <span class="text-3xl text-primary dark:text-primary" style="font-weight:500;" >Vast Selection of Light Weight Icons </span>
+    <span class="text-3xl text-primary dark:text-primary" style="font-weight:500;" >Designed for Innovative Projects <light-icon icon="wand" /></span>
   </div>
 
 
@@ -246,8 +249,9 @@ left: false
   <layout-tag layout-name="dynamic-image" />
 
   <div class="text-primary dark:text-primary ">
-    <span class="text-xl">
-     Easy to use Syntax:
+    <span class="text-xl" style="font-weight: 600;">
+      Simplified Syntax
+      <light-icon icon="code" />
     </span>
   </div>
   
@@ -284,7 +288,7 @@ left: false
   <div class="flex items-end justify-between pb-2 pt-5">
     <div class="">
       <icon-box>
-        <light-icon icon="brand-facebook" size="24px" />
+        <light-icon icon="brand-twitter" size="24px" />
       </icon-box>
     </div>
     <span class="text-xs opacity-60 ">
@@ -295,7 +299,7 @@ left: false
   ```ts
   // Inbuilt wrapper-component in theme
   <icon-box>
-    <light-icon icon="brand-facebook" size="24px" />
+    <light-icon icon="brand-twitter" size="24px" />
   </icon-box>
   ```
 
