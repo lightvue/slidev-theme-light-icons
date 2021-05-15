@@ -312,7 +312,7 @@ layout: center-image
   </div>
   <div class="mb-0">
     <a href="https://icons.lightvue.org/" target="_blank" class="">Documentation</a> |
-    <a href="https://github.com/lightvue/light-icons" target="_blank" class="">Contribute</a>
+    <a href="https://github.com/lightvue/light-icons" target="_blank" class="">Contribution</a>
   </div>
 
   <style>

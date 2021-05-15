@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "dev": "slidev example.md --open",
-    "build": "slidev build example.md",
+    "build": "slidev build example.md && cp -r _redirects ./dist/_redirects",
     "export": "slidev export example.md",
     "screenshot": "slidev export example.md --format png"
   },
