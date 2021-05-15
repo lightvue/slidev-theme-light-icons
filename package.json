@@ -4,10 +4,18 @@
   "engines": {
     "node": ">=14.0.0"
   },
+  "author": "Pulkit Aggarwal<pulkit.cloud@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lightvue/slidev-theme-light-icons.git"
+  },
+  "homepage": "https://slidev.icons.lightvue.org/",
   "description": "Light Icons theme for Slidev",
   "keywords": [
     "slidev-theme",
-    "slidev"
+    "slidev",
+    "icons",
+    "light-icons"
   ],
   "scripts": {
     "dev": "slidev example.md --open",
