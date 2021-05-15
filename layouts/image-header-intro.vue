@@ -1,7 +1,7 @@
 <template>
   <div class="slidev-layout intro relative grid grid-cols-12">
     <div class="absolute h-full w-full" style="z-index: -10">
-      <backgroundBubble />
+      <BubbleFrame v-if="!hideFrame"/>
     </div>
     <div class="my-auto col-span-6 grid grid-cols-12">
       <div class="image col-span-8">
@@ -30,6 +30,10 @@ const props = defineProps({
     type: String,
     required: false,
   },
+  hideFrame: {
+    type: Boolean,
+    default: false,
+  }
 });
 </script>
 

@@ -1,7 +1,7 @@
 <template>
   <div class="relative h-full intro grid grid-cols-12">
     <div class="absolute h-full w-full" style="z-index: -10">
-      <backgroundBubble />
+      <BubbleFrame v-if="!hideFrame"/>
     </div>
     <div
       v-if="image"
@@ -44,5 +44,9 @@ const props = defineProps({
     default: false,
     required: false,
   },
+  hideFrame: {
+    type: Boolean,
+    default: false,
+  }
 });
 </script>

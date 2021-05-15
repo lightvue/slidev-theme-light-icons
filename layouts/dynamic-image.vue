@@ -3,7 +3,7 @@
   <!-- Image is at Left -->
   <div v-if="left" class="relative h-full intro grid grid-cols-12">
     <div class="absolute h-full w-full" style="z-index: -10">
-      <backgroundBubble />
+      <BubbleFrame v-if="!hideFrame"/>
     </div>
     <!-- Image -->
     <div
@@ -111,6 +111,10 @@ const props = defineProps({
     default: true,
     required: false,
   },
+  hideFrame: {
+    type: Boolean,
+    default: false,
+  }
 });
 // const style1 = {
 //   filter: "blur(3px)",
