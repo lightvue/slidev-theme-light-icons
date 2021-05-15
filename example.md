@@ -46,7 +46,9 @@ equal: true
     <h1 class="text-primary dark:text-primary" >Handcrafted Icons...</h1>
   </div>
   <div class="leading-snug text-black dark:text-white text-opacity-60 dark:text-opacity-60">
-    Your imagination has no boundaries and so does our handpicked collection of premium & light-weighted icons. Explore and choose icons from the vast landscape of Light-Icons.
+    Your imagination has no boundaries and so does our handpicked collection of premium & light-weighted icons. 
+    <br/>
+    Explore and choose icons from the vast landscape of Light-Icons.
   </div>
 
 
