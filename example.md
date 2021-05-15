@@ -36,25 +36,6 @@ imageRight: '/static/light-icons-cover.svg'
 
 
 ---
-layout: image-left
-image: '/static/light-icons-illustration.svg'
-equal: true
----
-  <layout-tag layout-name="image-left" />
-
-  <div class="">
-    <h1 class="text-primary dark:text-primary" >Handcrafted Icons...</h1>
-  </div>
-  <div class="leading-snug text-black dark:text-white text-opacity-60 dark:text-opacity-60">
-    Your imagination has no boundaries and so does our handpicked collection of premium & light-weighted icons. 
-    <br/><br/>
-    Explore and choose icons from the vast landscape of Light-Icons. <light-icon icon="brand-telegram" />
-  </div>
-
-
-
-
----
 layout: dynamic-image
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 equal: true
@@ -302,6 +283,23 @@ left: false
     <light-icon icon="brand-twitter" size="24px" />
   </icon-box>
   ```
+
+
+---
+layout: image-left
+image: '/static/light-icons-illustration.svg'
+equal: true
+---
+  <layout-tag layout-name="image-left" />
+
+  <div class="">
+    <h1 class="text-primary dark:text-primary" >Handcrafted Icons...</h1>
+  </div>
+  <div class="leading-snug text-black dark:text-white text-opacity-60 dark:text-opacity-60">
+    Your imagination has no boundaries and so does our handpicked collection of premium & light-weighted icons. 
+    <br/><br/>
+    Explore and choose icons from the vast landscape of Light-Icons. <light-icon icon="brand-telegram" />
+  </div>
 
 
 
