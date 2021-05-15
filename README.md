@@ -2,7 +2,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/slidev-theme-light-icons?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-light-icons)
 
-A (...) theme for [Slidev](https://github.com/slidevjs/slidev).
+A [light-icons](https://icons.lightvue.org) theme for [Slidev](https://github.com/slidevjs/slidev).
 
 <!--
 run `npm run dev` to check out the slides for more details of how to start writing a theme
@@ -12,9 +12,9 @@ run `npm run dev` to check out the slides for more details of how to start writi
 put some screenshots here to demonstrate your theme,
 -->
 
-<!-- 
-Live demo: [...]
--->
+
+Live demo: [Click Here](https://slidev.icons.lightvue.org)
+
 
 ## Install
 
