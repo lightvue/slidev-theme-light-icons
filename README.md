@@ -1,20 +1,13 @@
-# slidev-theme-light-icons
+# @slidev-theme-light-icons
 
 [![NPM version](https://img.shields.io/npm/v/slidev-theme-light-icons?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-light-icons)
 
-A [light-icons](https://icons.lightvue.org) theme for [Slidev](https://github.com/slidevjs/slidev).
+- A light and Elegant theme for [Slidev](https://github.com/slidevjs/slidev).
+- This theme contains collection of amazing & light-weighted icons called the `light-icons`.
 
-<!--
-run `npm run dev` to check out the slides for more details of how to start writing a theme
--->
+#### Live demo: [Click Here](https://slidev.icons.lightvue.org).
 
-<!--
-put some screenshots here to demonstrate your theme,
--->
-
-
-Live demo: [Click Here](https://slidev.icons.lightvue.org)
-
+For more information about `light-icons`. Visit [Light Icons](https://lightvue.org/getting-started/light-icons).
 
 ## Install
 
@@ -29,14 +22,192 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 ## Layouts
 
 This theme provides the following layouts:
+#### Intro `intro`
+Usage:
 
-> TODO:
+```
+---
+layout: intro
+image: 'https://source.unsplash.com/collection/94734566/1920x1080'
+---
+```
+
+![intro](https://i.imgur.com/RxfnAIY.png)
+
+---
+
+
+#### Intro with icon `image-header-intro`
+Usage:
+
+```
+---
+layout: image-header-intro
+imageHeader: '../assets/images/light-icon-logo.svg'
+imageRight: '../assets/images/light-icons-landing.svg'
+---
+```
+
+![image-header-intro](https://i.imgur.com/g0EIbyN.png)
+
+---
+
+#### Image at left `image-left`
+Usage:
+
+```
+---
+layout: image-left
+image: '../assets/images/light-vue-landing.svg'
+equal: true
+---
+```
+
+![image-left](https://i.imgur.com/lEDvqkD.png)
+
+---
+
+#### Dynamic Image `dynamic-image`
+Usage:
+
+```
+---
+layout: dynamic-image
+image: 'https://source.unsplash.com/collection/94734566/1920x1080'
+equal: true
+left: false
+---
+```
+
+![dynamic-image](https://i.imgur.com/TPiRpTf.png)
+
+---
+
+#### Dynamic Image `dynamic-image`
+Usage:
+
+```
+---
+layout: dynamic-image 
+image: 'https://source.unsplash.com/collection/94734566/1920x1080'
+equal: false
+left: false
+---
+```
+
+![dynamic-image](https://i.imgur.com/IPZqo4h.png)
+
+---
+
+#### Dynamic Image `dynamic-image`
+Usage:
+
+```
+---
+layout: dynamic-image 
+image: 'https://source.unsplash.com/collection/94734566/1920x1080'
+equal: false
+left: true
+---
+```
+
+![dynamic-image](https://i.imgur.com/JFy7wsu.png)
+
+---
+
+#### Dynamic Image `dynamic-image`
+Usage:
+
+```
+---
+layout: dynamic-image 
+image: 'https://source.unsplash.com/collection/94734566/1920x1080'
+equal: true
+left: false
+---
+```
+
+![dynamic-image](https://i.imgur.com/oyXH7FL.png)
+
+---
+
+#### Dynamic Image `dynamic-image`
+Usage:
+
+```
+---
+layout: dynamic-image 
+image: 'https://source.unsplash.com/collection/94734566/1920x1080'
+upperImage: 'https://source.unsplash.com/collection/94734566/1920x1080'
+equal: true
+left: false
+---
+```
+
+![dynamic-image](https://i.imgur.com/47LFHW2.png)
+
+---
+
+#### Image at center `dynamic-image`
+Usage:
+
+```
+---
+layout: center-image
+image: '../assets/images/light-icons-landing2.png'
+---
+```
+
+![center-image](https://i.imgur.com/mlzLTbD.png)
+
+---
+
+#### Dynamic Image `dynamic-image`
+Usage:
+
+```
+---
+layout: dynamic-image
+image: 'https://source.unsplash.com/collection/94734566/1920x1080'
+equal: false
+left: false
+---
+```
+
+![dynamic-image](https://i.imgur.com/py8YL0P.png)
+
+---
+
+
+#### Image at center `dynamic-image`
+Usage:
+
+```
+---
+layout: center-image
+---
+```
+
+![center-image](https://i.imgur.com/hUR2PsM.png)
+
+---
+
+### Light & Dark Compatible 
+All themes are compatible with `light` & `dark` mode
+
+![image-header-intro](https://i.imgur.com/4dv6K0g.png)
+
 
 ## Components
 
 This theme provides the following components:
 
-> TODO:
+### `LightIcon` & `IconBox`
+- For using `light-icons` wherever needed inside the theme.
+- Also packed with additional `IconBox` to make the icons look elegant.
+
+![dynamic-image](https://i.imgur.com/py8YL0P.png)
+
 
 ## Contributing
 
