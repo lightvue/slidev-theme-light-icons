@@ -9,6 +9,13 @@
 
 For more information about `light-icons`. Visit [Light Icons](https://lightvue.org/getting-started/light-icons).
 
+---
+
+### 100% Light & Dark Compatible 
+All themes are compatible with `light` & `dark` mode
+
+![image-header-intro](screenshot/7-layout-dynamic-image-light.png)
+
 ## Install
 
 Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
@@ -32,7 +39,7 @@ image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 ---
 ```
 
-![intro](https://i.imgur.com/RxfnAIY.png)
+![intro](screenshot/1-layout-intro.png)
 
 ---
 
@@ -48,22 +55,7 @@ imageRight: '../assets/images/light-icons-landing.svg'
 ---
 ```
 
-![image-header-intro](https://i.imgur.com/g0EIbyN.png)
-
----
-
-#### Image at left `image-left`
-Usage:
-
-```
----
-layout: image-left
-image: '../assets/images/light-vue-landing.svg'
-equal: true
----
-```
-
-![image-left](https://i.imgur.com/lEDvqkD.png)
+![image-header-intro](screenshot/2-layout-image-header-intro-light.png)
 
 ---
 
@@ -79,7 +71,7 @@ left: false
 ---
 ```
 
-![dynamic-image](https://i.imgur.com/TPiRpTf.png)
+![dynamic-image](screenshot/3-layout-dynamic-image-dark.png)
 
 ---
 
@@ -95,7 +87,7 @@ left: false
 ---
 ```
 
-![dynamic-image](https://i.imgur.com/IPZqo4h.png)
+![dynamic-image](screenshot/4-layout-dynamic-image-dark.png)
 
 ---
 
@@ -111,7 +103,7 @@ left: true
 ---
 ```
 
-![dynamic-image](https://i.imgur.com/JFy7wsu.png)
+![dynamic-image](screenshot/5-layout-dynamic-image-dark.png)
 
 ---
 
@@ -127,7 +119,7 @@ left: false
 ---
 ```
 
-![dynamic-image](https://i.imgur.com/oyXH7FL.png)
+![dynamic-image](screenshot/6-layout-dynamic-image-dark.png)
 
 ---
 
@@ -144,7 +136,7 @@ left: false
 ---
 ```
 
-![dynamic-image](https://i.imgur.com/47LFHW2.png)
+![dynamic-image](screenshot/7-layout-dynamic-image-dark.png)
 
 ---
 
@@ -158,7 +150,7 @@ image: '../assets/images/light-icons-landing2.png'
 ---
 ```
 
-![center-image](https://i.imgur.com/mlzLTbD.png)
+![center-image](screenshot/8-layout-center-image-light.png)
 
 ---
 
@@ -174,9 +166,24 @@ left: false
 ---
 ```
 
-![dynamic-image](https://i.imgur.com/py8YL0P.png)
+![dynamic-image](screenshot/9-layout-dynamic-image-light.png)
 
 ---
+
+---
+
+#### Image at left `left-image`
+Usage:
+
+```
+---
+layout: left-image
+image: '../assets/images/light-vue-landing.svg'
+equal: true
+---
+```
+
+![image-left](screenshot/10-layout-left-image-light.png)
 
 
 #### Image at center `dynamic-image`
@@ -188,14 +195,7 @@ layout: center-image
 ---
 ```
 
-![center-image](https://i.imgur.com/hUR2PsM.png)
-
----
-
-### Light & Dark Compatible 
-All themes are compatible with `light` & `dark` mode
-
-![image-header-intro](https://i.imgur.com/4dv6K0g.png)
+![center-image](screenshot/11-layout-center-image-light.png)
 
 
 ## Components
@@ -206,7 +206,7 @@ This theme provides the following components:
 - For using `light-icons` wherever needed inside the theme.
 - Also packed with additional `IconBox` to make the icons look elegant.
 
-![dynamic-image](https://i.imgur.com/py8YL0P.png)
+![dynamic-image](screenshot/9-layout-dynamic-image-light.png)
 
 
 ## Contributing
