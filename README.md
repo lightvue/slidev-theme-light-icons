@@ -14,7 +14,7 @@ For more information about `light-icons`. Visit [Light Icons](https://lightvue.o
 ### 100% Light & Dark Compatible 
 All themes are compatible with `light` & `dark` mode
 
-![image-header-intro](screenshot/7-layout-dynamic-image-light.png)
+![image-header-intro](screenshot/overall.gif)
 
 ## Install
 
