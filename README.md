@@ -2,8 +2,8 @@
 
 [![NPM version](https://img.shields.io/npm/v/slidev-theme-light-icons?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-light-icons)
 
-- A light and Elegant theme for [Slidev](https://github.com/slidevjs/slidev).
-- This theme contains collection of amazing & light-weighted icons called the `light-icons`.
+  - A light and Elegant theme for [Slidev](https://github.com/slidevjs/slidev).
+  - This theme contains collection of amazing & light-weighted icons called the `light-icons`.
 
 #### Live demo: [Click Here](https://slidev.icons.lightvue.org).
 
@@ -203,16 +203,16 @@ layout: center-image
 This theme provides the following components:
 
 ### `LightIcon` & `IconBox`
-- For using `light-icons` wherever needed inside the theme.
-- Also packed with additional `IconBox` to make the icons look elegant.
+  - For using `light-icons` wherever needed inside the theme.
+  - Also packed with additional `IconBox` to make the icons look elegant.
 
 ![dynamic-image](screenshot/9-layout-dynamic-image-light.png)
 
 
 ## Contributing
 
-- `npm install`
-- `npm run dev` to start theme preview of `example.md`
-- Edit the `example.md` and style to see the changes
 - `npm run export` to genreate the preview PDF
 - `npm run screenshot` to genrate the preview PNG
+  - `npm install`
+  - `npm run dev` to start theme preview of `example.md`
+  - Edit the `example.md` and style to see the changes
