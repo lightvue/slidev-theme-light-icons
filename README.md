@@ -5,13 +5,13 @@
   - A light and Elegant theme for [Slidev](https://github.com/slidevjs/slidev).
   - This theme contains collection of amazing & light-weighted icons called the `light-icons`.
 
-#### Live demo: [Click Here](https://slidev.icons.lightvue.org).
+#### Live demo: [Click Here](https://slidev.icons.lightvue.org)
 
 For more information about `light-icons`. Visit [Light Icons](https://lightvue.org/getting-started/light-icons).
 
 ---
 
-### 100% Light & Dark Compatible 
+### 100% Light & Dark Compatible
 All themes are compatible with `light` & `dark` mode
 
 ![image-header-intro](screenshot/overall.gif)
