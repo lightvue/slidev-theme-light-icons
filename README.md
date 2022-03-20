@@ -172,12 +172,12 @@ left: false
 
 ---
 
-#### Image at left `left-image`
+#### Image at left `image-left`
 Usage:
 
 ```markdown
 ---
-layout: left-image
+layout: image-left
 image: '../assets/images/light-vue-landing.svg'
 equal: true
 ---
