@@ -29,6 +29,7 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 ## Layouts
 
 This theme provides the following layouts:
+
 #### Intro `intro`
 Usage:
 
@@ -42,7 +43,6 @@ image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 ![intro](screenshot/1-layout-intro.png)
 
 ---
-
 
 #### Intro with icon `image-header-intro`
 Usage:
