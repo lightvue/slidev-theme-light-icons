@@ -32,7 +32,7 @@ This theme provides the following layouts:
 #### Intro `intro`
 Usage:
 
-```
+```markdown
 ---
 layout: intro
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
@@ -47,7 +47,7 @@ image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 #### Intro with icon `image-header-intro`
 Usage:
 
-```
+```markdown
 ---
 layout: image-header-intro
 imageHeader: '../assets/images/light-icon-logo.svg'
@@ -62,7 +62,7 @@ imageRight: '../assets/images/light-icons-landing.svg'
 #### Dynamic Image `dynamic-image`
 Usage:
 
-```
+```markdown
 ---
 layout: dynamic-image
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
@@ -78,7 +78,7 @@ left: false
 #### Dynamic Image `dynamic-image`
 Usage:
 
-```
+```markdown
 ---
 layout: dynamic-image 
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
@@ -94,7 +94,7 @@ left: false
 #### Dynamic Image `dynamic-image`
 Usage:
 
-```
+```markdown
 ---
 layout: dynamic-image 
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
@@ -110,7 +110,7 @@ left: true
 #### Dynamic Image `dynamic-image`
 Usage:
 
-```
+```markdown
 ---
 layout: dynamic-image 
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
@@ -126,7 +126,7 @@ left: false
 #### Dynamic Image `dynamic-image`
 Usage:
 
-```
+```markdown
 ---
 layout: dynamic-image 
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
@@ -143,7 +143,7 @@ left: false
 #### Image at center `dynamic-image`
 Usage:
 
-```
+```markdown
 ---
 layout: center-image
 image: '../assets/images/light-icons-landing2.png'
@@ -157,7 +157,7 @@ image: '../assets/images/light-icons-landing2.png'
 #### Dynamic Image `dynamic-image`
 Usage:
 
-```
+```markdown
 ---
 layout: dynamic-image
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
@@ -175,7 +175,7 @@ left: false
 #### Image at left `left-image`
 Usage:
 
-```
+```markdown
 ---
 layout: left-image
 image: '../assets/images/light-vue-landing.svg'
@@ -189,7 +189,7 @@ equal: true
 #### Image at center `dynamic-image`
 Usage:
 
-```
+```markdown
 ---
 layout: center-image
 ---
