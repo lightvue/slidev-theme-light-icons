@@ -2,16 +2,16 @@
 
 [![NPM version](https://img.shields.io/npm/v/slidev-theme-light-icons?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-light-icons)
 
-- A light and Elegant theme for [Slidev](https://github.com/slidevjs/slidev).
-- This theme contains collection of amazing & light-weighted icons called the `light-icons`.
+  - A light and Elegant theme for [Slidev](https://github.com/slidevjs/slidev).
+  - This theme contains collection of amazing & light-weighted icons called the `light-icons`.
 
-#### Live demo: [Click Here](https://slidev.icons.lightvue.org).
+#### Live demo: [Click Here](https://slidev.icons.lightvue.org)
 
 For more information about `light-icons`. Visit [Light Icons](https://lightvue.org/getting-started/light-icons).
 
 ---
 
-### 100% Light & Dark Compatible 
+### 100% Light & Dark Compatible
 All themes are compatible with `light` & `dark` mode
 
 ![image-header-intro](screenshot/overall.gif)
@@ -29,10 +29,11 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 ## Layouts
 
 This theme provides the following layouts:
+
 #### Intro `intro`
 Usage:
 
-```
+```markdown
 ---
 layout: intro
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
@@ -43,11 +44,10 @@ image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 
 ---
 
-
 #### Intro with icon `image-header-intro`
 Usage:
 
-```
+```markdown
 ---
 layout: image-header-intro
 imageHeader: '../assets/images/light-icon-logo.svg'
@@ -62,7 +62,7 @@ imageRight: '../assets/images/light-icons-landing.svg'
 #### Dynamic Image `dynamic-image`
 Usage:
 
-```
+```markdown
 ---
 layout: dynamic-image
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
@@ -78,7 +78,7 @@ left: false
 #### Dynamic Image `dynamic-image`
 Usage:
 
-```
+```markdown
 ---
 layout: dynamic-image 
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
@@ -94,7 +94,7 @@ left: false
 #### Dynamic Image `dynamic-image`
 Usage:
 
-```
+```markdown
 ---
 layout: dynamic-image 
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
@@ -110,7 +110,7 @@ left: true
 #### Dynamic Image `dynamic-image`
 Usage:
 
-```
+```markdown
 ---
 layout: dynamic-image 
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
@@ -126,7 +126,7 @@ left: false
 #### Dynamic Image `dynamic-image`
 Usage:
 
-```
+```markdown
 ---
 layout: dynamic-image 
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
@@ -143,7 +143,7 @@ left: false
 #### Image at center `dynamic-image`
 Usage:
 
-```
+```markdown
 ---
 layout: center-image
 image: '../assets/images/light-icons-landing2.png'
@@ -157,7 +157,7 @@ image: '../assets/images/light-icons-landing2.png'
 #### Dynamic Image `dynamic-image`
 Usage:
 
-```
+```markdown
 ---
 layout: dynamic-image
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
@@ -172,12 +172,12 @@ left: false
 
 ---
 
-#### Image at left `left-image`
+#### Image at left `image-left`
 Usage:
 
-```
+```markdown
 ---
-layout: left-image
+layout: image-left
 image: '../assets/images/light-vue-landing.svg'
 equal: true
 ---
@@ -189,7 +189,7 @@ equal: true
 #### Image at center `dynamic-image`
 Usage:
 
-```
+```markdown
 ---
 layout: center-image
 ---
@@ -203,16 +203,16 @@ layout: center-image
 This theme provides the following components:
 
 ### `LightIcon` & `IconBox`
-- For using `light-icons` wherever needed inside the theme.
-- Also packed with additional `IconBox` to make the icons look elegant.
+  - For using `light-icons` wherever needed inside the theme.
+  - Also packed with additional `IconBox` to make the icons look elegant.
 
 ![dynamic-image](screenshot/9-layout-dynamic-image-light.png)
 
 
 ## Contributing
 
-- `npm install`
-- `npm run dev` to start theme preview of `example.md`
-- Edit the `example.md` and style to see the changes
-- `npm run export` to genreate the preview PDF
-- `npm run screenshot` to genrate the preview PNG
+  - `npm install`
+  - `npm run dev` to start theme preview of `example.md`
+  - Edit the `example.md` and style to see the changes
+  - `npm run export` to generate the preview PDF
+  - `npm run screenshot` to generate the preview PNG
