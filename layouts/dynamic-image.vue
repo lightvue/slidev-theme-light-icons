@@ -1,6 +1,6 @@
 
   <template>
-  <div class="w-full h-full"
+  <div class="w-full h-full">
     <!-- Image is at Left -->
     <div v-if="left" class="relative h-full intro grid grid-cols-12">
       <div class="absolute h-full w-full" style="z-index: -10">
